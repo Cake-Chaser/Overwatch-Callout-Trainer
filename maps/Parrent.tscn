@@ -5,14 +5,21 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Find_lbl" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
-
 [node name="BG" type="Sprite" parent="."]
 position = Vector2( 511.208, 300.711 )
 scale = Vector2( 0.681151, 0.711573 )
 texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Find_lbl" type="Label" parent="."]
+margin_left = 406.0
+margin_top = 557.0
+margin_right = 549.0
+margin_bottom = 595.0
+text = "Test plase holder"
+percent_visible = -0.0666667
 
 [node name="Hits" type="Node" parent="."]
 script = ExtResource( 2 )

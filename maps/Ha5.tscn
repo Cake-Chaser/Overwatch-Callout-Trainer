@@ -11,8 +11,10 @@ scale = Vector2( 0.680791, 0.715189 )
 texture = ExtResource( 1 )
 
 [node name="Find_lbl" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = 428.0
+margin_top = 554.0
+margin_right = 543.0
+margin_bottom = 594.0
 
 [node name="Hits" type="Node" parent="."]
 script = ExtResource( 2 )

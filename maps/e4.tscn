@@ -14,8 +14,10 @@ __meta__ = {
 }
 
 [node name="Find_lbl" type="Label" parent="."]
-margin_right = 40.0
-margin_bottom = 14.0
+margin_left = 273.0
+margin_top = 559.0
+margin_right = 356.0
+margin_bottom = 593.0
 
 [node name="Hits" type="Node" parent="."]
 script = ExtResource( 2 )
