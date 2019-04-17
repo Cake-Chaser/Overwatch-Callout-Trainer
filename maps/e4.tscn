@@ -1,0 +1,124 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://BG_S/Eichenwalde+map+callouts+four+Overwatch.jpg" type="Texture" id=1]
+[ext_resource path="res://Hits.gd" type="Script" id=2]
+
+[node name="e4" type="Node2D"]
+
+[node name="BG" type="Sprite" parent="."]
+position = Vector2( 511.699, 300.327 )
+scale = Vector2( 1.02346, 1.07214 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Find_lbl" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Hits" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="Window" type="Button" parent="Hits"]
+margin_left = 885.0
+margin_top = 28.0
+margin_right = 1002.0
+margin_bottom = 62.0
+
+[node name="Back Shelf" type="Button" parent="Hits"]
+margin_left = 744.0
+margin_top = 10.0
+margin_right = 827.0
+margin_bottom = 76.0
+
+[node name="Front Shelf" type="Button" parent="Hits"]
+margin_left = 854.0
+margin_top = 145.0
+margin_right = 942.0
+margin_bottom = 211.0
+
+[node name="Point" type="Button" parent="Hits"]
+margin_left = 722.0
+margin_top = 195.488
+margin_right = 812.0
+margin_bottom = 228.488
+
+[node name="Back door" type="Button" parent="Hits"]
+margin_left = 656.0
+margin_top = 59.4875
+margin_right = 736.0
+margin_bottom = 123.488
+
+[node name="Front Door" type="Button" parent="Hits"]
+margin_left = 802.0
+margin_top = 314.0
+margin_right = 894.0
+margin_bottom = 381.0
+
+[node name="back bridge" type="Button" parent="Hits"]
+margin_left = 500.0
+margin_top = 43.0
+margin_right = 606.0
+margin_bottom = 110.0
+
+[node name="Back house" type="Button" parent="Hits"]
+margin_left = 301.452
+margin_top = 95.3444
+margin_right = 407.452
+margin_bottom = 162.344
+
+[node name="Side" type="Button" parent="Hits"]
+margin_left = 225.0
+margin_top = 296.0
+margin_right = 290.0
+margin_bottom = 334.0
+
+[node name="Celler" type="Button" parent="Hits"]
+margin_left = 92.4149
+margin_top = 431.805
+margin_right = 204.415
+margin_bottom = 469.805
+
+[node name="Ramparts" type="Button" parent="Hits"]
+margin_left = 466.512
+margin_top = 555.0
+margin_right = 614.512
+margin_bottom = 593.0
+
+[node name="Mid" type="Button" parent="Hits"]
+margin_left = 361.0
+margin_top = 319.0
+margin_right = 435.0
+margin_bottom = 357.0
+
+[node name="Plank" type="Button" parent="Hits"]
+margin_left = 670.0
+margin_top = 378.0
+margin_right = 760.0
+margin_bottom = 416.0
+
+[node name="Moat Door" type="Button" parent="Hits"]
+margin_left = 553.0
+margin_top = 407.195
+margin_right = 637.0
+margin_bottom = 471.195
+
+[node name="Room" type="Button" parent="Hits"]
+margin_left = 743.292
+margin_top = 491.902
+margin_right = 827.292
+margin_bottom = 526.902
+
+[node name="Roof" type="Button" parent="Hits"]
+margin_left = 863.0
+margin_top = 421.0
+margin_right = 942.0
+margin_bottom = 456.0
+
+[node name="Bridge" type="Button" parent="Hits"]
+margin_left = 508.0
+margin_top = 204.098
+margin_right = 614.0
+margin_bottom = 240.098
+

@@ -1,0 +1,100 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://maps/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/Ilios+Ruins+map+callouts+one+Overwatch.jpg" type="Texture" id=2]
+
+[node name="il3" index="0" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="1"]
+texture = ExtResource( 2 )
+
+[node name="Nest" type="Button" parent="Hits" index="0"]
+margin_left = 318.095
+margin_top = 157.397
+margin_right = 357.095
+margin_bottom = 177.397
+
+[node name="Nest2" type="Button" parent="Hits" index="1"]
+margin_left = 662.371
+margin_top = 158.793
+margin_right = 701.371
+margin_bottom = 178.793
+
+[node name="Mega" type="Button" parent="Hits" index="2"]
+margin_left = 149.798
+margin_top = 183.235
+margin_right = 188.798
+margin_bottom = 203.235
+
+[node name="Mega3" type="Button" parent="Hits" index="3"]
+margin_left = 810.417
+margin_top = 181.838
+margin_right = 849.417
+margin_bottom = 201.838
+
+[node name="Yard" type="Button" parent="Hits" index="4"]
+margin_left = 129.546
+margin_top = 267.733
+margin_right = 168.546
+margin_bottom = 287.733
+
+[node name="Yard2" type="Button" parent="Hits" index="5"]
+margin_left = 834.858
+margin_top = 271.224
+margin_right = 873.858
+margin_bottom = 291.224
+
+[node name="Box" type="Button" parent="Hits" index="6"]
+margin_left = 190.999
+margin_top = 348.739
+margin_right = 229.999
+margin_bottom = 368.739
+
+[node name="Box2" type="Button" parent="Hits" index="7"]
+margin_left = 783.88
+margin_top = 352.23
+margin_right = 822.88
+margin_bottom = 372.23
+
+[node name="Dark" type="Button" parent="Hits" index="8"]
+margin_left = 68.7915
+margin_top = 388.544
+margin_right = 107.792
+margin_bottom = 408.544
+
+[node name="Dark2" type="Button" parent="Hits" index="9"]
+margin_left = 890.725
+margin_top = 373.879
+margin_right = 929.725
+margin_bottom = 393.879
+
+[node name="Mega2" type="Button" parent="Hits" index="10"]
+margin_left = 488.487
+margin_top = 496.785
+margin_right = 527.487
+margin_bottom = 516.785
+
+[node name="Statue" type="Button" parent="Hits" index="11"]
+margin_left = 479.603
+margin_top = 342.698
+margin_right = 529.603
+margin_bottom = 362.698
+
+[node name="Point" type="Button" parent="Hits" index="12"]
+margin_left = 479.603
+margin_top = 277.754
+margin_right = 529.603
+margin_bottom = 297.754
+
+[node name="Behind point" type="Button" parent="Hits" index="13"]
+margin_left = 459.0
+margin_top = 237.0
+margin_right = 558.0
+margin_bottom = 257.0
+
+[node name="Bridge" type="Button" parent="Hits" index="14"]
+margin_left = 477.603
+margin_top = 191.905
+margin_right = 531.603
+margin_bottom = 211.905
+

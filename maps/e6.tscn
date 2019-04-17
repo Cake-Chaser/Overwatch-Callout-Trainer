@@ -1,0 +1,106 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://BG_S/Eichenwalde+map+callouts+six+Overwatch.jpg" type="Texture" id=1]
+[ext_resource path="res://Hits.gd" type="Script" id=2]
+
+[node name="e6" type="Node2D"]
+
+[node name="BG" type="Sprite" parent="."]
+position = Vector2( 512.148, 300.325 )
+scale = Vector2( 1.02256, 1.06893 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Find_lbl" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Hits" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="Back hall" type="Button" parent="Hits"]
+margin_left = 96.9025
+margin_top = 274.0
+margin_right = 172.902
+margin_bottom = 342.0
+
+[node name="Back gallery" type="Button" parent="Hits"]
+margin_left = 328.707
+margin_top = 181.805
+margin_right = 460.707
+margin_bottom = 249.805
+
+[node name="Back crown" type="Button" parent="Hits"]
+margin_left = 439.903
+margin_top = 7.60994
+margin_right = 544.903
+margin_bottom = 65.6099
+
+[node name="Point Crown" type="Button" parent="Hits"]
+margin_left = 595.0
+margin_top = 125.0
+margin_right = 701.0
+margin_bottom = 188.0
+
+[node name="Back Spawn" type="Button" parent="Hits"]
+margin_left = 523.0
+margin_top = 259.0
+margin_right = 621.0
+margin_bottom = 320.0
+
+[node name="Front Spawn" type="Button" parent="Hits"]
+margin_left = 689.96
+margin_top = 275.245
+margin_right = 787.96
+margin_bottom = 336.245
+
+[node name="Throne" type="Button" parent="Hits"]
+margin_left = 599.195
+margin_top = 211.0
+margin_right = 720.195
+margin_bottom = 248.0
+
+[node name="Front Gallery" type="Button" parent="Hits"]
+margin_left = 775.902
+margin_top = 204.805
+margin_right = 900.902
+margin_bottom = 269.805
+
+[node name="Kitchen" type="Button" parent="Hits"]
+margin_left = 833.0
+margin_top = 453.0
+margin_right = 950.0
+margin_bottom = 495.0
+
+[node name="Junk" type="Button" parent="Hits"]
+margin_left = 798.195
+margin_top = 342.975
+margin_right = 867.195
+margin_bottom = 384.975
+
+[node name="Point" type="Button" parent="Hits"]
+margin_left = 601.0
+margin_top = 355.0
+margin_right = 675.0
+margin_bottom = 392.0
+
+[node name="Mid" type="Button" parent="Hits"]
+margin_left = 560.388
+margin_top = 497.593
+margin_right = 634.388
+margin_bottom = 534.593
+
+[node name="Piller" type="Button" parent="Hits"]
+margin_left = 344.0
+margin_top = 334.707
+margin_right = 441.0
+margin_bottom = 371.707
+
+[node name="Side" type="Button" parent="Hits"]
+margin_left = 214.902
+margin_top = 454.902
+margin_right = 279.902
+margin_bottom = 491.902
+
