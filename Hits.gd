@@ -4,6 +4,8 @@ var All_btn
 var info_lbl
 var The_Goal
 var random 
+const numbers = [1,2,3,4,5,6,7,8,9,0]
+
 
 func _ready():
 	
@@ -38,13 +40,21 @@ func RandomeCallout():
 	info_lbl.set_text("Find " + The_Goal )
 
 
+
 func _physics_process(delta):
 	
 	
 	
 	
 	for btn in All_btn:
-		if btn.pressed and btn.name == The_Goal :
+		
+		for number in numbers:
+			if str(number) in The_Goal:
+				The_Goal = The_Goal.replace(number, "")
+				info_lbl.set_text("Find " + The_Goal )
+		
+		
+		if btn.pressed and The_Goal in str(btn.name) :
 			print(btn.name)
 			btn.visible = false
 			if All_btn.size() != 0:
