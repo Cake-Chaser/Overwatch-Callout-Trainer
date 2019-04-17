@@ -3,11 +3,10 @@
 [ext_resource path="res://BG_S/Dorado+map+callouts+seven+Overwatch.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Hits.gd" type="Script" id=2]
 
-
 [node name="d7" type="Node2D"]
 
 [node name="BG" type="Sprite" parent="."]
-position = Vector2( 511.465, 300.628 )
+position = Vector2( 509.759, 298.353 )
 scale = Vector2( 0.683547, 0.714625 )
 texture = ExtResource( 1 )
 
@@ -21,68 +20,68 @@ margin_bottom = 596.0
 script = ExtResource( 2 )
 
 [node name="Warehouse" type="Button" parent="Hits"]
-margin_left = 211.321
-margin_top = 353.226
-margin_right = 302.321
-margin_bottom = 384.226
+margin_left = 217.0
+margin_top = 360.0
+margin_right = 292.0
+margin_bottom = 380.0
 
 [node name="Tunnal" type="Button" parent="Hits"]
-margin_left = 56.5664
-margin_top = 317.633
-margin_right = 147.566
-margin_bottom = 348.633
+margin_left = 61.0
+margin_top = 323.0
+margin_right = 109.0
+margin_bottom = 344.0
 
 [node name="Basement" type="Button" parent="Hits"]
-margin_left = 241.499
-margin_top = 295.967
-margin_right = 332.499
-margin_bottom = 326.967
+margin_left = 248.0
+margin_top = 300.0
+margin_right = 311.0
+margin_bottom = 323.0
 
 [node name="Fence" type="Button" parent="Hits"]
-margin_left = 360.66
-margin_top = 315.311
-margin_right = 451.66
-margin_bottom = 346.311
+margin_left = 382.0
+margin_top = 318.0
+margin_right = 420.0
+margin_bottom = 338.0
 
 [node name="Mid" type="Button" parent="Hits"]
-margin_left = 232.213
-margin_top = 479.351
-margin_right = 323.213
-margin_bottom = 510.351
+margin_left = 260.226
+margin_top = 480.679
+margin_right = 288.226
+margin_bottom = 501.679
 
 [node name="Basement2" type="Button" parent="Hits"]
-margin_left = 374.588
-margin_top = 433.699
-margin_right = 465.588
-margin_bottom = 464.699
+margin_left = 395.487
+margin_top = 437.947
+margin_right = 459.487
+margin_bottom = 458.947
 
 [node name="Pass" type="Button" parent="Hits"]
-margin_left = 561.067
-margin_top = 420.545
-margin_right = 652.067
-margin_bottom = 451.545
+margin_left = 574.0
+margin_top = 426.0
+margin_right = 604.0
+margin_bottom = 446.0
 
 [node name="Spawn" type="Button" parent="Hits"]
-margin_left = 501.487
-margin_top = 280.491
-margin_right = 592.487
-margin_bottom = 311.491
+margin_left = 542.0
+margin_top = 281.0
+margin_right = 585.0
+margin_bottom = 302.0
 
 [node name="Ops" type="Button" parent="Hits"]
-margin_left = 383.873
-margin_top = 258.052
-margin_right = 474.873
-margin_bottom = 289.052
+margin_left = 413.0
+margin_top = 261.0
+margin_right = 437.0
+margin_bottom = 282.0
 
 [node name="Storage" type="Button" parent="Hits"]
-margin_left = 807.128
-margin_top = 253.409
-margin_right = 898.128
-margin_bottom = 284.409
+margin_left = 837.0
+margin_top = 257.0
+margin_right = 893.0
+margin_bottom = 277.0
 
 [node name="Pit" type="Button" parent="Hits"]
-margin_left = 733.619
-margin_top = 322.275
-margin_right = 824.619
-margin_bottom = 353.275
+margin_left = 766.0
+margin_top = 330.0
+margin_right = 787.0
+margin_bottom = 350.0
 

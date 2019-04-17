@@ -3,7 +3,6 @@
 [ext_resource path="res://BG_S/Dorado+map+callouts+one+Overwatch.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Hits.gd" type="Script" id=2]
 
-
 [node name="d1" type="Node2D"]
 
 [node name="BG" type="Sprite" parent="."]
@@ -21,68 +20,68 @@ margin_bottom = 578.0
 script = ExtResource( 2 )
 
 [node name="Basement" type="Button" parent="Hits"]
-margin_left = 282.0
-margin_top = 421.226
-margin_right = 357.0
-margin_bottom = 454.226
+margin_left = 289.0
+margin_top = 430.0
+margin_right = 354.0
+margin_bottom = 450.0
 
 [node name="Mid" type="Button" parent="Hits"]
-margin_left = 276.583
-margin_top = 243.258
-margin_right = 351.583
-margin_bottom = 276.258
+margin_left = 298.0
+margin_top = 250.0
+margin_right = 323.0
+margin_bottom = 273.0
 
 [node name="Pass" type="Button" parent="Hits"]
-margin_left = 173.672
-margin_top = 93.9195
-margin_right = 248.672
-margin_bottom = 126.919
+margin_left = 199.0
+margin_top = 104.0
+margin_right = 230.0
+margin_bottom = 124.0
 
 [node name="Access" type="Button" parent="Hits"]
-margin_left = 326.879
-margin_top = 135.703
-margin_right = 401.879
-margin_bottom = 168.703
+margin_left = 338.0
+margin_top = 142.0
+margin_right = 385.0
+margin_bottom = 163.0
 
 [node name="Long" type="Button" parent="Hits"]
-margin_left = 384.912
-margin_top = 68.3849
-margin_right = 459.912
-margin_bottom = 101.385
+margin_left = 399.0
+margin_top = 75.0
+margin_right = 431.0
+margin_bottom = 95.0
 
 [node name="White" type="Button" parent="Hits"]
-margin_left = 582.998
-margin_top = 94.6933
-margin_right = 657.998
-margin_bottom = 127.693
+margin_left = 606.0
+margin_top = 101.0
+margin_right = 645.0
+margin_bottom = 121.0
 
 [node name="Yellow" type="Button" parent="Hits"]
-margin_left = 740.074
-margin_top = 188.32
-margin_right = 815.074
-margin_bottom = 221.32
+margin_left = 752.0
+margin_top = 196.0
+margin_right = 804.0
+margin_bottom = 216.0
 
 [node name="Coast" type="Button" parent="Hits"]
-margin_left = 835.249
-margin_top = 263.376
-margin_right = 910.249
-margin_bottom = 296.376
+margin_left = 843.0
+margin_top = 271.0
+margin_right = 883.0
+margin_bottom = 291.0
 
 [node name="Arch" type="Button" parent="Hits"]
-margin_left = 651.09
-margin_top = 204.569
-margin_right = 726.09
-margin_bottom = 237.569
+margin_left = 670.0
+margin_top = 212.0
+margin_right = 703.0
+margin_bottom = 232.0
 
 [node name="Red" type="Button" parent="Hits"]
-margin_left = 514.132
-margin_top = 292.006
-margin_right = 589.132
-margin_bottom = 325.006
+margin_left = 543.0
+margin_top = 299.0
+margin_right = 566.0
+margin_bottom = 319.0
 
 [node name="Mid2" type="Button" parent="Hits"]
-margin_left = 641.031
-margin_top = 334.563
-margin_right = 716.031
-margin_bottom = 367.563
+margin_left = 660.805
+margin_top = 344.098
+margin_right = 685.805
+margin_bottom = 364.098
 

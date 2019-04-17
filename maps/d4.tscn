@@ -3,7 +3,6 @@
 [ext_resource path="res://BG_S/Dorado+map+callouts+four+Overwatch.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Hits.gd" type="Script" id=2]
 
-
 [node name="d4" type="Node2D"]
 
 [node name="BG" type="Sprite" parent="."]
@@ -22,104 +21,104 @@ text = "find bank placeholder"
 script = ExtResource( 2 )
 
 [node name="Coutyard" type="Button" parent="Hits"]
-margin_left = 589.0
-margin_top = 97.0
-margin_right = 671.0
-margin_bottom = 126.0
+margin_left = 597.0
+margin_top = 102.0
+margin_right = 667.0
+margin_bottom = 122.0
 
 [node name="Garage" type="Button" parent="Hits"]
-margin_left = 27.2396
-margin_top = 69.1441
-margin_right = 109.24
-margin_bottom = 98.1441
+margin_left = 48.0
+margin_top = 75.0
+margin_right = 95.0
+margin_bottom = 95.0
 
 [node name="Point" type="Button" parent="Hits"]
-margin_left = 152.591
-margin_top = 81.5245
-margin_right = 234.591
-margin_bottom = 110.525
+margin_left = 180.0
+margin_top = 84.0
+margin_right = 218.0
+margin_bottom = 104.0
 
 [node name="Ivy" type="Button" parent="Hits"]
-margin_left = 230.742
-margin_top = 26.5865
-margin_right = 312.742
-margin_bottom = 55.5865
+margin_left = 242.0
+margin_top = 32.0
+margin_right = 264.0
+margin_bottom = 52.0
 
 [node name="Church" type="Button" parent="Hits"]
-margin_left = 327.464
-margin_top = 121.761
-margin_right = 409.464
-margin_bottom = 150.761
+margin_left = 352.0
+margin_top = 126.0
+margin_right = 400.0
+margin_bottom = 146.0
 
 [node name="Perch" type="Button" parent="Hits"]
-margin_left = 601.38
-margin_top = 49.026
-margin_right = 683.38
-margin_bottom = 78.026
+margin_left = 608.0
+margin_top = 53.0
+margin_right = 644.0
+margin_bottom = 73.0
 
 [node name="Fench" type="Button" parent="Hits"]
-margin_left = 811.847
-margin_top = 65.2752
-margin_right = 893.847
-margin_bottom = 94.2752
+margin_left = 817.0
+margin_top = 68.0
+margin_right = 852.0
+margin_bottom = 88.0
 
 [node name="Far door" type="Button" parent="Hits"]
-margin_left = 788.634
-margin_top = 145.748
-margin_right = 870.634
-margin_bottom = 174.748
+margin_left = 792.0
+margin_top = 148.0
+margin_right = 852.0
+margin_bottom = 168.0
 
 [node name="DD" type="Button" parent="Hits"]
-margin_left = 680.305
-margin_top = 155.033
-margin_right = 762.305
-margin_bottom = 184.033
+margin_left = 718.0
+margin_top = 160.0
+margin_right = 736.0
+margin_bottom = 180.0
 
 [node name="Market" type="Button" parent="Hits"]
-margin_left = 873.749
-margin_top = 272.647
-margin_right = 955.749
-margin_bottom = 301.647
+margin_left = 891.0
+margin_top = 277.0
+margin_right = 940.0
+margin_bottom = 297.0
 
 [node name="Short" type="Button" parent="Hits"]
-margin_left = 677.21
-margin_top = 428.176
-margin_right = 759.21
-margin_bottom = 457.176
+margin_left = 697.0
+margin_top = 432.0
+margin_right = 733.0
+margin_bottom = 452.0
 
 [node name="Near Door" type="Button" parent="Hits"]
-margin_left = 520.908
-margin_top = 343.834
-margin_right = 602.908
-margin_bottom = 372.834
+margin_left = 526.902
+margin_top = 348.805
+margin_right = 595.902
+margin_bottom = 369.805
 
 [node name="Mid" type="Button" parent="Hits"]
-margin_left = 269.431
-margin_top = 329.132
-margin_right = 351.431
-margin_bottom = 358.132
+margin_left = 299.0
+margin_top = 333.0
+margin_right = 322.0
+margin_bottom = 355.0
 
 [node name="Park" type="Button" parent="Hits"]
-margin_left = 121.64
-margin_top = 451.389
-margin_right = 203.64
-margin_bottom = 480.389
+margin_left = 147.0
+margin_top = 456.0
+margin_right = 177.0
+margin_bottom = 476.0
 
 [node name="Museum" type="Button" parent="Hits"]
-margin_left = 352.999
-margin_top = 486.209
-margin_right = 434.999
-margin_bottom = 515.209
+margin_left = 372.0
+margin_top = 490.195
+margin_right = 422.0
+margin_bottom = 510.195
 
 [node name="Pass" type="Button" parent="Hits"]
-margin_left = 169.614
-margin_top = 140.331
-margin_right = 251.614
-margin_bottom = 169.331
+margin_left = 194.0
+margin_top = 143.0
+margin_right = 225.0
+margin_bottom = 163.0
 
 [node name="Bank" type="Button" parent="Hits"]
-margin_left = 48.9054
-margin_top = 203.781
-margin_right = 130.905
-margin_bottom = 232.781
+margin_left = 56.0
+margin_top = 207.0
+margin_right = 87.0
+margin_bottom = 227.0
 

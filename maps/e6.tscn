@@ -3,7 +3,6 @@
 [ext_resource path="res://BG_S/Eichenwalde+map+callouts+six+Overwatch.jpg" type="Texture" id=1]
 [ext_resource path="res://Scripts/Hits.gd" type="Script" id=2]
 
-
 [node name="e6" type="Node2D"]
 
 [node name="BG" type="Sprite" parent="."]
