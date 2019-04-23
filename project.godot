@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="New Game Project"
-run/main_scene="res://Nextworld.tscn"
+run/main_scene="res://Menu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+singleton="*res://Parrent/singleton.gd"
 
 [rendering]
 

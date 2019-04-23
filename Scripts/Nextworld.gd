@@ -1,23 +1,25 @@
 extends Node
-
-
-var random = randi() % 7
+var random 
+var mapstemp = []
 
 func _ready():
+	
 	randomize()
+	if singleton.chosenMaps.size() == 0:
+		get_tree().change_scene("res://Menu.tscn")
+		return
+	random = randi() % singleton.chosenMaps.size()
+	mapstemp = singleton.chosenMaps
 	
-	var files =  list_files_in_directory("res://maps")
-	
-	var random = randi() % files.size()
 	
 	
 	
+	get_tree().change_scene("res://maps/" + mapstemp[random] )
+	mapstemp.remove(random)
+	singleton.chosenMaps = mapstemp
 
-	
-	
-	
-	
-	get_tree().change_scene("res://maps/" + files[random])
+
+
 
 func list_files_in_directory(path):
     var files = []

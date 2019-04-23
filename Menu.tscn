@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scripts/BuildList.gd" type="Script" id=1]
+[ext_resource path="res://Fonts/Maximum Impact.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -2.7207
+margin_top = -3.0
+margin_right = -2.7207
+margin_bottom = -3.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="MapList" type="ItemList" parent="."]
+margin_left = 84.0
+margin_top = 68.0
+margin_right = 339.0
+margin_bottom = 463.0
+select_mode = 1
+allow_reselect = true
+allow_rmb_select = true
+auto_height = true
+
+[node name="Label" type="Label" parent="."]
+margin_left = 83.8098
+margin_top = 47.3805
+margin_right = 181.81
+margin_bottom = 92.3805
+custom_fonts/font = SubResource( 1 )
+text = "Maps
+"
+
+[node name="Label2" type="Label" parent="."]
+margin_left = 145.774
+margin_top = 53.7018
+margin_right = 332.774
+margin_bottom = 84.7018
+text = "Hold CRTL to select multiple
+"
+
+[node name="WantRandom" type="CheckButton" parent="."]
+margin_left = 378.0
+margin_top = 74.0
+margin_right = 454.0
+margin_bottom = 114.0
+pressed = true
+text = "Random order"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 152.857
+margin_top = 509.415
+margin_right = 252.857
+margin_bottom = 543.415
+text = "Start"
+

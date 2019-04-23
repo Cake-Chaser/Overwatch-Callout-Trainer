@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/King's+Row+map+callouts+seven+Overwatch.png" type="Texture" id=2]
+
+
+[node name="ki7" index="0" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="1"]
+texture = ExtResource( 2 )
+
+[node name="Window" type="Button" parent="Hits" index="0"]
+margin_left = 276.0
+margin_top = 195.0
+margin_right = 326.0
+margin_bottom = 215.0
+
+[node name="Staircase" type="Button" parent="Hits" index="1"]
+margin_left = 235.0
+margin_top = 323.95
+margin_right = 301.0
+margin_bottom = 343.95
+
+[node name="Connector" type="Button" parent="Hits" index="2"]
+margin_left = 229.95
+margin_top = 382.0
+margin_right = 299.95
+margin_bottom = 402.0
+rect_scale = Vector2( 1, 1.01687 )
+
+[node name="Horseshue" type="Button" parent="Hits" index="3"]
+margin_left = 457.95
+margin_top = 252.8
+margin_right = 527.95
+margin_bottom = 272.8
+
+[node name="Storge" type="Button" parent="Hits" index="4"]
+margin_left = 820.1
+margin_top = 414.0
+margin_right = 878.1
+margin_bottom = 434.0
+
+[node name="Mid" type="Button" parent="Hits" index="5"]
+margin_left = 492.0
+margin_top = 444.0
+margin_right = 519.0
+margin_bottom = 464.0
+

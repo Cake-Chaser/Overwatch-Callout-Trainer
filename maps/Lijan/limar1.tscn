@@ -1,0 +1,119 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/Lijang+Night+Market+map+callouts+one+Overwatch.jpg" type="Texture" id=2]
+
+
+[node name="limar1" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="1"]
+texture = ExtResource( 2 )
+
+[node name="Overpass" type="Button" parent="Hits" index="0"]
+margin_left = 145.0
+margin_top = 201.0
+margin_right = 214.0
+margin_bottom = 221.0
+
+[node name="Overpass2" type="Button" parent="Hits" index="1"]
+margin_left = 802.0
+margin_top = 202.0
+margin_right = 871.0
+margin_bottom = 222.0
+
+[node name="Secret" type="Button" parent="Hits" index="2"]
+margin_left = 283.143
+margin_top = 104.285
+margin_right = 337.143
+margin_bottom = 124.285
+
+[node name="Secret2" type="Button" parent="Hits" index="3"]
+margin_left = 694.143
+margin_top = 105.285
+margin_right = 748.143
+margin_bottom = 125.285
+
+[node name="Connector" type="Button" parent="Hits" index="4"]
+margin_left = 305.0
+margin_top = 178.0
+margin_right = 384.0
+margin_bottom = 198.0
+
+[node name="Connector3" type="Button" parent="Hits" index="5"]
+margin_left = 640.0
+margin_top = 179.0
+margin_right = 719.0
+margin_bottom = 199.0
+
+[node name="Street" type="Button" parent="Hits" index="6"]
+margin_left = 302.0
+margin_top = 278.0
+margin_right = 354.0
+margin_bottom = 298.0
+
+[node name="Street2" type="Button" parent="Hits" index="7"]
+margin_left = 669.0
+margin_top = 279.0
+margin_right = 721.0
+margin_bottom = 299.0
+
+[node name="Main" type="Button" parent="Hits" index="8"]
+margin_left = 150.0
+margin_top = 431.0
+margin_right = 190.0
+margin_bottom = 451.0
+
+[node name="Main2" type="Button" parent="Hits" index="9"]
+margin_left = 838.0
+margin_top = 427.0
+margin_right = 878.0
+margin_bottom = 447.0
+
+[node name="Neon" type="Button" parent="Hits" index="10"]
+margin_left = 100.272
+margin_top = 389.846
+margin_right = 140.272
+margin_bottom = 409.846
+
+[node name="Neon2" type="Button" parent="Hits" index="11"]
+margin_left = 887.272
+margin_top = 390.846
+margin_right = 927.272
+margin_bottom = 410.846
+
+[node name="Mega" type="Button" parent="Hits" index="12"]
+margin_left = 246.026
+margin_top = 525.311
+margin_right = 286.026
+margin_bottom = 545.311
+
+[node name="Mega3" type="Button" parent="Hits" index="13"]
+margin_left = 735.026
+margin_top = 524.311
+margin_right = 775.026
+margin_bottom = 544.311
+
+[node name="Garden" type="Button" parent="Hits" index="14"]
+margin_left = 484.0
+margin_top = 508.0
+margin_right = 549.0
+margin_bottom = 528.0
+
+[node name="Yard" type="Button" parent="Hits" index="15"]
+margin_left = 495.143
+margin_top = 274.715
+margin_right = 530.143
+margin_bottom = 294.715
+
+[node name="Mega2" type="Button" parent="Hits" index="16"]
+margin_left = 494.285
+margin_top = 122.959
+margin_right = 529.285
+margin_bottom = 142.959
+
+[node name="Connector2" type="Button" parent="Hits" index="17"]
+margin_left = 465.0
+margin_top = 181.0
+margin_right = 554.0
+margin_bottom = 201.0
+

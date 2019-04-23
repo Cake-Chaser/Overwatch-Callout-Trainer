@@ -1,0 +1,59 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/Horizon+Lunar+Colony+map+callouts+ten+Overwatch.png" type="Texture" id=2]
+
+
+[node name="hor10" index="0" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="1"]
+texture = ExtResource( 2 )
+
+[node name="Craine" type="Button" parent="Hits" index="0"]
+margin_left = 465.0
+margin_top = 25.0
+margin_right = 537.0
+margin_bottom = 62.0
+
+[node name="Balc" type="Button" parent="Hits" index="1"]
+margin_left = 416.492
+margin_top = 193.698
+margin_right = 454.492
+margin_bottom = 220.698
+
+[node name="Buggy" type="Button" parent="Hits" index="2"]
+margin_left = 244.397
+margin_top = 339.302
+margin_right = 321.397
+margin_bottom = 378.302
+
+[node name="Understairs" type="Button" parent="Hits" index="3"]
+margin_left = 373.0
+margin_top = 274.0
+margin_right = 465.0
+margin_bottom = 316.0
+
+[node name="Main" type="Button" parent="Hits" index="4"]
+margin_left = 534.302
+margin_top = 293.698
+margin_right = 591.302
+margin_bottom = 330.698
+
+[node name="Point" type="Button" parent="Hits" index="5"]
+margin_left = 481.0
+margin_top = 413.0
+margin_right = 546.0
+margin_bottom = 454.0
+
+[node name="Right" type="Button" parent="Hits" index="6"]
+margin_left = 733.097
+margin_top = 438.838
+margin_right = 798.097
+margin_bottom = 479.838
+
+[node name="Connecter" type="Button" parent="Hits" index="7"]
+margin_left = 705.0
+margin_top = 271.0
+margin_right = 841.0
+margin_bottom = 312.0
+
