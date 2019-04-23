@@ -5,14 +5,17 @@
 
 [node name="Licen1" index="0" instance=ExtResource( 1 )]
 
-[node name="BG" parent="." index="1"]
+[node name="BG" parent="." index="0"]
 texture = ExtResource( 2 )
 
+[node name="Find_lbl" parent="." index="1"]
+percent_visible = 1.0
+
 [node name="Coast" type="Button" parent="Hits" index="0"]
-margin_left = 201.0
-margin_top = 329.559
-margin_right = 241.0
-margin_bottom = 349.559
+margin_left = 200.56
+margin_top = 329.119
+margin_right = 240.56
+margin_bottom = 349.119
 rect_scale = Vector2( 1, 0.661128 )
 
 [node name="Coast2" type="Button" parent="Hits" index="1"]
