@@ -25,7 +25,7 @@ func _process(delta):
 		singleton.chosenMaps = chosenMapNames
 		print(singleton.chosenMaps)
 		
-		
+		singleton.wantRandonm = $WantRandom.pressed
 		singleton.chosenMaps = serializeMaps()
 		get_tree().change_scene("Nextworld.tscn")
 
