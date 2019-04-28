@@ -3,92 +3,92 @@
 [ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
 [ext_resource path="res://BG_S/enhansed/Eichenwalde+map+callouts+three+Overwatch.png" type="Texture" id=2]
 
-[node name="ei3" index="0" instance=ExtResource( 1 )]
+[node name="ei3" instance=ExtResource( 1 )]
 
 [node name="BG" parent="." index="0"]
 position = Vector2( 512.633, 298.893 )
 scale = Vector2( 0.512246, 0.532744 )
 texture = ExtResource( 2 )
 
-[node name="Backgate" type="Button" parent="Hits" index="0"]
+[node name="BackGate" type="Button" parent="Hits" index="0"]
 margin_left = 103.0
 margin_top = 434.0
 margin_right = 175.0
 margin_bottom = 487.0
 
-[node name="Midgate" type="Button" parent="Hits" index="1"]
+[node name="MidGate" type="Button" parent="Hits" index="1"]
 margin_left = 216.684
 margin_top = 367.684
 margin_right = 288.684
 margin_bottom = 420.684
 
-[node name="Button3" type="Button" parent="Hits" index="2"]
+[node name="MainGate" type="Button" parent="Hits" index="2"]
 margin_left = 279.842
 margin_top = 300.316
 margin_right = 351.842
 margin_bottom = 353.316
 
-[node name="Button4" type="Button" parent="Hits" index="3"]
+[node name="FrontGate" type="Button" parent="Hits" index="3"]
 margin_left = 351.0
 margin_top = 239.0
 margin_right = 434.0
 margin_bottom = 294.0
 
-[node name="Button5" type="Button" parent="Hits" index="4"]
+[node name="Windows" type="Button" parent="Hits" index="4"]
 margin_left = 198.0
 margin_top = 177.0
 margin_right = 322.0
 margin_bottom = 204.0
 
-[node name="Button6" type="Button" parent="Hits" index="5"]
+[node name="Ruins" type="Button" parent="Hits" index="5"]
 margin_left = 358.0
 margin_top = 126.0
 margin_right = 436.0
 margin_bottom = 153.0
 
-[node name="Button7" type="Button" parent="Hits" index="6"]
+[node name="Passege" type="Button" parent="Hits" index="6"]
 margin_left = 711.0
 margin_top = 93.0
 margin_right = 835.0
 margin_bottom = 120.0
 
-[node name="Button8" type="Button" parent="Hits" index="7"]
+[node name="Roof" type="Button" parent="Hits" index="7"]
 margin_left = 633.0
 margin_top = 270.0
 margin_right = 700.0
 margin_bottom = 297.0
 
-[node name="Button9" type="Button" parent="Hits" index="8"]
+[node name="Rampart" type="Button" parent="Hits" index="8"]
 margin_left = 745.0
 margin_top = 270.0
 margin_right = 881.0
 margin_bottom = 336.0
 
-[node name="Button10" type="Button" parent="Hits" index="9"]
+[node name="Tower" type="Button" parent="Hits" index="9"]
 margin_left = 417.0
 margin_top = 381.0
 margin_right = 511.0
 margin_bottom = 406.0
 
-[node name="Button11" type="Button" parent="Hits" index="10"]
+[node name="Room" type="Button" parent="Hits" index="10"]
 margin_left = 541.947
 margin_top = 408.842
 margin_right = 616.947
 margin_bottom = 433.842
 
-[node name="Button12" type="Button" parent="Hits" index="11"]
+[node name="Celler" type="Button" parent="Hits" index="11"]
 margin_left = 494.0
 margin_top = 506.0
 margin_right = 595.0
 margin_bottom = 531.0
 
-[node name="Button13" type="Button" parent="Hits" index="12"]
+[node name="Stairs" type="Button" parent="Hits" index="12"]
 margin_left = 242.0
 margin_top = 546.0
 margin_right = 328.0
 margin_bottom = 571.0
 
-[node name="Button14" type="Button" parent="Hits" index="13"]
+[node name="Main" type="Button" parent="Hits" index="13"]
 margin_left = 908.0
 margin_top = 335.0
 margin_right = 973.0
