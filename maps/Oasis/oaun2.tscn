@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/Oasis+University+map+callouts+two+Overwatch.jpg" type="Texture" id=2]
+
+[node name="oaun2" index="0" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="0"]
+texture = ExtResource( 2 )
+
+[node name="Gate" type="Button" parent="Hits" index="0"]
+margin_left = 284.0
+margin_top = 308.0
+margin_right = 320.0
+margin_bottom = 328.0
+
+[node name="Connector" type="Button" parent="Hits" index="1"]
+margin_left = 630.0
+margin_top = 129.0
+margin_right = 709.0
+margin_bottom = 149.0
+
+[node name="Underpass" type="Button" parent="Hits" index="2"]
+margin_left = 525.0
+margin_top = 325.0
+margin_right = 604.0
+margin_bottom = 345.0
+
+[node name="Mega" type="Button" parent="Hits" index="3"]
+margin_left = 586.0
+margin_top = 412.0
+margin_right = 620.0
+margin_bottom = 432.0
+
+[node name="Mini" type="Button" parent="Hits" index="4"]
+margin_left = 194.0
+margin_top = 505.0
+margin_right = 228.0
+margin_bottom = 525.0
+

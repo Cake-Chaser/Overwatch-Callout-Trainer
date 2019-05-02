@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Route+66++map+callouts+five+Overwatch.png-fcd8f6f746935e2f4c2bab0667d76546.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://BG_S/enhansed/Route+66++map+callouts+five+Overwatch(CUnet)(auto_scale)(Level1)(x2.000000).png/Route+66++map+callouts+five+Overwatch.png"
+dest_files=[ "res://.import/Route+66++map+callouts+five+Overwatch.png-fcd8f6f746935e2f4c2bab0667d76546.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
