@@ -10,3 +10,93 @@ position = Vector2( 513.5, 300.065 )
 scale = Vector2( 0.513437, 0.535969 )
 texture = ExtResource( 2 )
 
+[node name="cave" type="Button" parent="Hits" index="0"]
+margin_left = 286.713
+margin_top = 73.8185
+margin_right = 319.713
+margin_bottom = 93.8185
+
+[node name="Door" type="Button" parent="Hits" index="1"]
+margin_left = 304.684
+margin_top = 173.936
+margin_right = 337.684
+margin_bottom = 193.936
+
+[node name="Door2" type="Button" parent="Hits" index="2"]
+margin_left = 209.896
+margin_top = 348.265
+margin_right = 242.896
+margin_bottom = 368.265
+
+[node name="Point" type="Button" parent="Hits" index="3"]
+margin_left = 275.0
+margin_top = 282.0
+margin_right = 313.0
+margin_bottom = 302.0
+
+[node name="Path" type="Button" parent="Hits" index="4"]
+margin_left = 403.0
+margin_top = 144.0
+margin_right = 438.0
+margin_bottom = 164.0
+
+[node name="Bridge" type="Button" parent="Hits" index="5"]
+margin_left = 420.0
+margin_top = 182.0
+margin_right = 463.0
+margin_bottom = 202.0
+
+[node name="Chasm" type="Button" parent="Hits" index="6"]
+margin_left = 632.295
+margin_top = 140.798
+margin_right = 675.295
+margin_bottom = 160.798
+
+[node name="Closet" type="Button" parent="Hits" index="7"]
+margin_left = 477.264
+margin_top = 503.933
+margin_right = 520.264
+margin_bottom = 523.933
+
+[node name="Cave" type="Button" parent="Hits" index="8"]
+margin_left = 684.0
+margin_top = 359.0
+margin_right = 714.0
+margin_bottom = 379.0
+
+[node name="Mid" type="Button" parent="Hits" index="9"]
+margin_left = 556.204
+margin_top = 426.739
+margin_right = 586.204
+margin_bottom = 446.739
+
+[node name="Gas" type="Button" parent="Hits" index="10"]
+margin_left = 517.796
+margin_top = 218.634
+margin_right = 547.796
+margin_bottom = 238.634
+
+[node name="DD" type="Button" parent="Hits" index="11"]
+margin_left = 232.698
+margin_top = 222.207
+margin_right = 249.698
+margin_bottom = 242.207
+
+[node name="Long" type="Button" parent="Hits" index="12"]
+margin_left = 791.0
+margin_top = 172.0
+margin_right = 822.0
+margin_bottom = 192.0
+
+[node name="Cave2" type="Button" parent="Hits" index="13"]
+margin_left = 854.549
+margin_top = 380.104
+margin_right = 885.549
+margin_bottom = 400.104
+
+[node name="Catwalk" type="Button" parent="Hits" index="14"]
+margin_left = 736.0
+margin_top = 523.0
+margin_right = 791.0
+margin_bottom = 543.0
+
