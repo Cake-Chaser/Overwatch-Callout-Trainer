@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/Volskaya+Industries+map+callouts+three+Overwatch.png" type="Texture" id=2]
+
+[node name="vo3" index="0" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="0"]
+texture = ExtResource( 2 )
+
+[node name="OPS" type="Button" parent="Hits" index="0"]
+margin_left = 47.0
+margin_top = 387.0
+margin_right = 74.0
+margin_bottom = 407.0
+
+[node name="Lift" type="Button" parent="Hits" index="1"]
+margin_left = 215.684
+margin_top = 268.612
+margin_right = 242.684
+margin_bottom = 288.612
+
+[node name="Tower" type="Button" parent="Hits" index="2"]
+margin_left = 323.0
+margin_top = 175.0
+margin_right = 365.0
+margin_bottom = 195.0
+
+[node name="Fence" type="Button" parent="Hits" index="3"]
+margin_left = 527.0
+margin_top = 109.0
+margin_right = 564.0
+margin_bottom = 129.0
+
+[node name="Point" type="Button" parent="Hits" index="4"]
+margin_left = 698.006
+margin_top = 124.476
+margin_right = 735.006
+margin_bottom = 144.476
+
+[node name="Front" type="Button" parent="Hits" index="5"]
+margin_left = 657.0
+margin_top = 239.0
+margin_right = 696.0
+margin_bottom = 259.0
+
+[node name="Truck" type="Button" parent="Hits" index="6"]
+margin_left = 508.0
+margin_top = 396.0
+margin_right = 550.0
+margin_bottom = 416.0
+
+[node name="Mid" type="Button" parent="Hits" index="7"]
+margin_left = 511.774
+margin_top = 307.548
+margin_right = 533.774
+margin_bottom = 327.548
+
+[node name="Mid2" type="Button" parent="Hits" index="8"]
+margin_left = 638.9
+margin_top = 180.1
+margin_right = 660.9
+margin_bottom = 200.1
+
+[node name="Turbine" type="Button" parent="Hits" index="9"]
+margin_left = 807.0
+margin_top = 151.0
+margin_right = 858.0
+margin_bottom = 171.0
+
+[node name="Storage" type="Button" parent="Hits" index="10"]
+margin_left = 904.0
+margin_top = 418.0
+margin_right = 957.0
+margin_bottom = 438.0
+

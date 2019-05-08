@@ -1,0 +1,72 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Parrent/Parrent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://BG_S/enhansed/Watchpoint+Gibraltar+map+callouts+eight+Overwatch(CUnet)(auto_scale)(Level1)(x2.000000).png/Watchpoint+Gibraltar+map+callouts+one+Overwatch.png" type="Texture" id=2]
+
+[node name="wa1" index="0" instance=ExtResource( 1 )]
+
+[node name="BG" parent="." index="0"]
+position = Vector2( 512.837, 297.685 )
+scale = Vector2( 0.512734, 0.534641 )
+texture = ExtResource( 2 )
+
+[node name="Comms" type="Button" parent="Hits" index="0"]
+margin_left = 290.0
+margin_top = 328.0
+margin_right = 338.0
+margin_bottom = 348.0
+
+[node name="Coast" type="Button" parent="Hits" index="1"]
+margin_left = 59.0
+margin_top = 471.0
+margin_right = 102.0
+margin_bottom = 491.0
+
+[node name="Tower" type="Button" parent="Hits" index="2"]
+margin_left = 490.0
+margin_top = 218.0
+margin_right = 535.0
+margin_bottom = 238.0
+
+[node name="Globe" type="Button" parent="Hits" index="3"]
+margin_left = 772.0
+margin_top = 207.0
+margin_right = 817.0
+margin_bottom = 227.0
+
+[node name="Spawn" type="Button" parent="Hits" index="4"]
+margin_left = 869.0
+margin_top = 479.0
+margin_right = 914.0
+margin_bottom = 499.0
+
+[node name="Short" type="Button" parent="Hits" index="5"]
+margin_left = 704.0
+margin_top = 428.0
+margin_right = 749.0
+margin_bottom = 448.0
+
+[node name="Pass" type="Button" parent="Hits" index="6"]
+margin_left = 655.0
+margin_top = 279.0
+margin_right = 688.0
+margin_bottom = 299.0
+
+[node name="Long" type="Button" parent="Hits" index="7"]
+margin_left = 623.0
+margin_top = 327.0
+margin_right = 656.0
+margin_bottom = 347.0
+
+[node name="Mid" type="Button" parent="Hits" index="8"]
+margin_left = 687.0
+margin_top = 359.0
+margin_right = 717.0
+margin_bottom = 379.0
+
+[node name="Point" type="Button" parent="Hits" index="9"]
+margin_left = 481.0
+margin_top = 481.0
+margin_right = 518.0
+margin_bottom = 501.0
+

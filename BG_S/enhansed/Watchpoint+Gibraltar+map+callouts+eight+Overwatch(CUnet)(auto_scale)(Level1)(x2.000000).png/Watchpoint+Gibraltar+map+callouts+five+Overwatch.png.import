@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Watchpoint+Gibraltar+map+callouts+five+Overwatch.png-a3d2469814586f801ab882b0cd56803b.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://BG_S/enhansed/Watchpoint+Gibraltar+map+callouts+eight+Overwatch(CUnet)(auto_scale)(Level1)(x2.000000).png/Watchpoint+Gibraltar+map+callouts+five+Overwatch.png"
+dest_files=[ "res://.import/Watchpoint+Gibraltar+map+callouts+five+Overwatch.png-a3d2469814586f801ab882b0cd56803b.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
