@@ -8,7 +8,7 @@ to install, run Install Callout tool.exe
 
 ## usage
 
-run 
+run Overwatch Callouts tool.exe
 
 
 ## Contributing
