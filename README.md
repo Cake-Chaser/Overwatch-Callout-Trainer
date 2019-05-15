@@ -2,9 +2,10 @@
 
 OCT is a tool to help you memories names of diffrent Overwatch locations
 
-##installation
+## installation
 
-to install, run Install Callout tool.exe 
+
+to install, download and  run Install Callout tool.exe from the [Releases](https://github.com/user/repo/blob/branch/other_file.md)
 
 ## usage
 
