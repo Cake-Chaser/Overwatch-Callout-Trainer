@@ -17,6 +17,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
-##sugestens 
+## Sugestens 
 if you have requests ore suggest please upen a issue.
 
