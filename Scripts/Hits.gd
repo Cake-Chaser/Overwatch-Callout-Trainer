@@ -5,7 +5,7 @@ var info_lbl
 var The_Goal
 var random 
 const numbers = [1,2,3,4,5,6,7,8,9,0]
-
+var time = singleton.RunTime
 
 func _ready():
 	
@@ -15,12 +15,6 @@ func _ready():
 	RandomeCallout()
 	
 	
-#	random = randi() % All_btn.size()
-#	The_Goal = All_btn[random].name
-#
-#	info_lbl.set_text("Find " + The_Goal )
-	
-#	for debug
 	for	btn in All_btn:
 		print(btn.name)
 	print(info_lbl.name)
@@ -34,6 +28,7 @@ func RandomeCallout():
 	randomize()
 	if All_btn.size() == 0:
 		get_tree().change_scene("Nextworld.tscn")
+		singleton.RunTime = time
 		return 
 	random = randi() % All_btn.size()
 	The_Goal = All_btn[random].name
@@ -46,7 +41,7 @@ func RandomeCallout():
 
 func _process(delta):
 	
-	
+	time = time + delta
 	
 	
 	for btn in All_btn:

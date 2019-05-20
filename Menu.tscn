@@ -55,10 +55,24 @@ margin_bottom = 114.0
 pressed = true
 text = "Random order"
 
-[node name="Button" type="Button" parent="."]
+[node name="Start_btn" type="Button" parent="."]
 margin_left = 152.857
 margin_top = 509.415
 margin_right = 252.857
 margin_bottom = 543.415
 text = "Start"
+
+[node name="Label3" type="Label" parent="."]
+margin_left = 389.474
+margin_top = 108.421
+margin_right = 429.474
+margin_bottom = 122.421
+text = "Last runs time:"
+
+[node name="LastRunTime_lbl" type="Label" parent="Label3"]
+margin_left = 99.2632
+margin_top = -0.0526428
+margin_right = 195.263
+margin_bottom = 13.9474
+text = "12331 s"
 
