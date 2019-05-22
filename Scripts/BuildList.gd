@@ -63,7 +63,7 @@ func format_time(time, format = FORMAT_DEFAULT, digit_format = "%02d"):
 
 func _process(delta):
 	
-	if $Button.pressed :
+	if $Start_btn.pressed :
 		selecteditems= $MapList.get_selected_items()
 		for number in selecteditems:
 				chosenMapNames.push_back($MapList.get_item_text(number))
@@ -73,7 +73,7 @@ func _process(delta):
 		singleton.wantRandonm = $WantRandom.pressed
 		singleton.chosenMaps = serializeMaps()
 		get_tree().change_scene("Nextworld.tscn")
-
+	
 	
 	
 

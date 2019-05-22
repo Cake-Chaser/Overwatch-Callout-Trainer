@@ -1,33 +1,68 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://BG_S/Hollywood+map+callouts+four+Overwatch.png" type="Texture" id=1]
-[ext_resource path="res://Fonts/Maximum Impact.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://Scripts/Hits.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/Hits.gd" type="Script" id=2]
+[ext_resource path="res://BG_S/Gui/Map Gui.png" type="Texture" id=3]
+[ext_resource path="res://Fonts/Maximum Impact.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Sprites/pngkit_zelda-heart-png_1803309.png" type="Texture" id=5]
 
 [sub_resource type="DynamicFont" id=1]
-size = 21
+size = 43
 outline_size = 2
 outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 2 )
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+font_data = ExtResource( 4 )
 
 [node name="Node2D" type="Node2D"]
 
 [node name="BG" type="Sprite" parent="."]
-position = Vector2( 511.208, 300.711 )
+position = Vector2( 511.208, 317.711 )
 scale = Vector2( 0.681151, 0.711573 )
 texture = ExtResource( 1 )
-__meta__ = {
-"_edit_lock_": true
-}
+
+[node name="Hits" type="Sprite" parent="."]
+position = Vector2( 0, 17 )
+script = ExtResource( 2 )
+
+[node name="Map Gui" type="Sprite" parent="."]
+position = Vector2( 523.135, 29.2507 )
+scale = Vector2( 0.661377, 0.285264 )
+texture = ExtResource( 3 )
 
 [node name="Find_lbl" type="Label" parent="."]
-margin_left = 692.317
-margin_top = 552.79
-margin_right = 855.317
-margin_bottom = 590.79
+margin_left = 234.0
+margin_top = 3.0
+margin_right = 805.0
+margin_bottom = 57.0
 custom_fonts/font = SubResource( 1 )
 text = "Test plase holder"
 
-[node name="Hits" type="Node" parent="."]
-script = ExtResource( 3 )
+[node name="Time_lbl" type="Label" parent="."]
+margin_left = 13.0
+margin_top = 6.0
+margin_right = 142.0
+margin_bottom = 38.0
+custom_fonts/font = SubResource( 2 )
+text = "00:00:00"
+
+[node name="Health" type="Sprite" parent="."]
+position = Vector2( 851.841, 7.34357 )
+
+[node name="Hart1" type="Sprite" parent="Health"]
+position = Vector2( 8.86066, 13.6037 )
+scale = Vector2( 0.0985246, 0.0985246 )
+texture = ExtResource( 5 )
+
+[node name="Hart2" type="Sprite" parent="Health"]
+position = Vector2( 57.8608, 13.6037 )
+scale = Vector2( 0.0985246, 0.0985246 )
+texture = ExtResource( 5 )
+
+[node name="Hart3" type="Sprite" parent="Health"]
+position = Vector2( 107.861, 13.6037 )
+scale = Vector2( 0.0985246, 0.0985246 )
+texture = ExtResource( 5 )
 

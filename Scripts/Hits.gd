@@ -1,7 +1,7 @@
 extends Node
 
 var All_btn
-var info_lbl
+var Find_lbl
 var The_Goal
 var random 
 const numbers = [1,2,3,4,5,6,7,8,9,0]
@@ -9,7 +9,7 @@ var time = singleton.RunTime
 
 func _ready():
 	
-	info_lbl = get_node("../Find_lbl")
+	Find_lbl = get_node("../Find_lbl")
 	All_btn = get_children()
 	
 	RandomeCallout()
@@ -17,7 +17,7 @@ func _ready():
 	
 	for	btn in All_btn:
 		print(btn.name)
-	print(info_lbl.name)
+	print(Find_lbl.name)
 	print(random)
 	
 	
@@ -32,11 +32,11 @@ func RandomeCallout():
 		return 
 	random = randi() % All_btn.size()
 	The_Goal = All_btn[random].name
-	info_lbl.set_text("Find " + The_Goal )
+	Find_lbl.set_text("Find " + The_Goal )
 	for number in numbers:
 			if str(number) in The_Goal:
 				The_Goal = The_Goal.replace(number, "")
-				info_lbl.set_text("Find " + The_Goal )
+				Find_lbl.set_text("Find " + The_Goal )
 
 
 func _process(delta):

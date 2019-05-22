@@ -57,12 +57,20 @@ text = "Random order"
 
 [node name="Start_btn" type="Button" parent="."]
 margin_left = 152.857
-margin_top = 509.415
+margin_top = 508.249
 margin_right = 252.857
-margin_bottom = 543.415
+margin_bottom = 542.249
 text = "Start"
 
+[node name="Reset_btn" type="Button" parent="."]
+margin_left = 404.857
+margin_top = 508.249
+margin_right = 504.857
+margin_bottom = 542.249
+text = "Reset"
+
 [node name="Label3" type="Label" parent="."]
+editor/display_folded = true
 margin_left = 389.474
 margin_top = 108.421
 margin_right = 429.474
