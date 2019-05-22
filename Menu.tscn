@@ -17,7 +17,9 @@ margin_right = -2.7207
 margin_bottom = -3.0
 script = ExtResource( 1 )
 __meta__ = {
-"_edit_lock_": true
+"_edit_horizontal_guides_": [ 48.0512 ],
+"_edit_lock_": true,
+"_edit_vertical_guides_": [ 384.849 ]
 }
 
 [node name="MapList" type="ItemList" parent="."]
@@ -55,6 +57,14 @@ margin_bottom = 114.0
 pressed = true
 text = "Random order"
 
+[node name="WantLife" type="CheckButton" parent="."]
+margin_left = 378.0
+margin_top = 113.0
+margin_right = 548.0
+margin_bottom = 153.0
+pressed = true
+text = "health"
+
 [node name="Start_btn" type="Button" parent="."]
 margin_left = 152.857
 margin_top = 508.249
@@ -70,11 +80,10 @@ margin_bottom = 542.249
 text = "Reset"
 
 [node name="Label3" type="Label" parent="."]
-editor/display_folded = true
 margin_left = 389.474
-margin_top = 108.421
-margin_right = 429.474
-margin_bottom = 122.421
+margin_top = 54.421
+margin_right = 485.474
+margin_bottom = 68.421
 text = "Last runs time:"
 
 [node name="LastRunTime_lbl" type="Label" parent="Label3"]
